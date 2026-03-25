@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Hardhat build artifacts and cache
+artifacts/
+cache/
+
+# Your secrets — CRITICAL: never commit this
+.env
+
+# macOS junk
+.DS_Store
