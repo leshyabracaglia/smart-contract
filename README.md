@@ -7,7 +7,7 @@ A mintable ERC-20 token built with Hardhat and OpenZeppelin, deployed to the Sep
 - Symbol: `QTPI`
 - Initial supply: 1,000,000 tokens
 - Owner can mint additional tokens at any time
-- Deployed contract: `0xcfB8035a88DE1b5fdc89242169c8c2f62c1656EE`
+- Deployed contract: [`0xcfB8035a88DE1b5fdc89242169c8c2f62c1656EE`](https://sepolia.etherscan.io/address/0xcfB8035a88DE1b5fdc89242169c8c2f62c1656EE)
 
 ---
 
