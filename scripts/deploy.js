@@ -5,8 +5,8 @@ const hre = require("hardhat");
 
 async function main() {
   // Token configuration — change these to whatever you want
-  const TOKEN_NAME     = "MyToken";
-  const TOKEN_SYMBOL   = "MTK";
+  const TOKEN_NAME     = "qtPI";
+  const TOKEN_SYMBOL   = "QTPI";
   const INITIAL_SUPPLY = 1_000_000; // 1 million tokens
 
   console.log("Deploying MyToken...");
@@ -15,7 +15,7 @@ async function main() {
   console.log(`  Initial Supply: ${INITIAL_SUPPLY.toLocaleString()} tokens`);
 
   // Get the contract factory (a helper that knows how to deploy a contract)
-  const MyToken = await hre.ethers.getContractFactory("MyToken");
+  const MyToken = await hre.ethers.getContractFactory("qtPI");
 
   // Deploy it — this sends a transaction to the network
   const token = await MyToken.deploy(TOKEN_NAME, TOKEN_SYMBOL, INITIAL_SUPPLY);

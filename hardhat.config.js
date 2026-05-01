@@ -10,6 +10,9 @@ const isValidKey = /^0x[0-9a-fA-F]{64}$/.test(PRIVATE_KEY);
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
+  etherscan: {
+    apiKey: "WFXYPDA1P55KR3D9J7G6K7C26C1RZSUV5T",
+  },
   solidity: {
     version: "0.8.20",
     settings: {
